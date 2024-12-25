@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: antiquewhite;
+}
+/**navigation bar**/
+nav{
+    height: 65px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: larger;
+}
+nav div{
+    padding: 0 8px 0 8px;
+}
+nav img{
+    height: 57px;
+}
+
+/* container */
+.container{
+    height: 74.2vh;
+    background-image: url("12-Rare-aspects-of-the-genius-that-was-Kishore-Kumar.jpg");
+    background-size:cover;
+    width: 70vw;
+    margin: 2vh 33vh;
+    border-radius: 10px;
+}
+
+/* songlist */
+.songlist{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.songlist h1{
+    margin-bottom: 2vh;
+    margin-top: 1vh;
+}
+
+.song{
+    height: 5vh;
+    width: 33vw;
+    background-color:white;
+    color: black;
+    line-height: 200%;
+    display: flex;
+    justify-content:space-between;
+    padding: auto;
+    margin: .5vh;
+    font-size: larger;
+}
+
+.song img{
+    width: 3vw;
+    border-radius: 50%;
+}
+#play:hover {
+    border:2px solid black;
+    cursor: pointer;
+}
+
+
+/* bottom */
+.bottom{
+    height: 13vh;
+    background-color: black;
+    /* padding-top: 2vh; */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom img{
+    width: 5vh;
+}
+
+/* progressBar */
+#myProgressBar{
+    width: 80vw;
+}
+
+.songlist{
+    width: 50%;
+    display: flex;
+    padding:1%;
+    color: aliceblue;
+}
+
+/* controlpanel */
+.control{
+    display: flex;
+    justify-content: center;
+    width: 20vw;
+}
+
+.control img{
+    cursor: pointer;
+}
+
+.controlpanel{
+    display: flex;
+    margin-top: 1.5vh;
+    justify-content: center;
+    width: 20vw; 
+}
+
+.bottom span {
+    position: absolute;
+    margin-left: -30vw;
+    font-size: larger;
+    margin-top: 2vh;
+}
+
+
